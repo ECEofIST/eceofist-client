@@ -1,0 +1,21 @@
+.result {
+    margin: 5px -105px 0px -50px;
+}
+
+.resultSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px -50;
+    width: 100%;
+}
+
+.resultSource iframe {
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-bottom: -60px;
+    height: 790px;
+    width: 100%;
+    transform: scale(0.95)
+}

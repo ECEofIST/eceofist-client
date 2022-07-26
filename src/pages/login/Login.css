@@ -1,0 +1,90 @@
+.login{
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ), 
+    /* url("../../resources/images/loginBG.png"); */
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+}
+
+.topBarContainerInLogin{
+    width: 100%;
+    margin-top: -250px;
+    position: sticky;
+}
+
+.loginForm{
+    width: 350px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    background:rgba(0, 0, 0, 0.15);
+}
+
+.loginTitle{
+    font-size: 50px;
+    align-self: center;
+}
+
+.loginForm> label{
+    margin: 10px 0;
+}
+
+.loginForm> input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginForm> input:focus{
+    outline: none;
+}
+
+.loginBtn{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.registerBtn{
+    position: absolute;
+    width: 90px;
+    top: 110px;
+    right: 60px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #019b53;
+    cursor: pointer;
+}
+
+.registerBtn:hover{
+    border: 2px solid #019b53;
+    color: #019b53;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+

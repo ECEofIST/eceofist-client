@@ -1,0 +1,84 @@
+.register{
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ), 
+    /* url("../../resources/images/registerBG.png"); */
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+
+.registerForm{
+    width: 350px;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    background:rgba(0, 0, 0, 0.15);
+}
+
+.registerTitle{
+    font-size: 50px;
+    align-self: center;
+}
+
+.registerForm> label{
+    margin: 10px 0;
+}
+
+.registerForm> input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.registerForm> input:focus{
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registerButton:hover{
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.loginButton{
+    position: absolute;
+    width: 90px;
+    top: 110px;
+    right: 60px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #019b53;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    border: 2px solid #019b53;
+    color: #019b53;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+

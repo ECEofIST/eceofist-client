@@ -1,0 +1,20 @@
+.Contact {
+    margin: 5px 20px 5px 20px;
+}
+
+.contactSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.contactSource iframe {
+    border-radius: 5px;
+    margin-top: -200px;
+    height: 1700px;
+    width: 100%;
+    transform: scale(0.95)
+}

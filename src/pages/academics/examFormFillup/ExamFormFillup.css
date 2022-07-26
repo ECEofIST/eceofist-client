@@ -1,0 +1,21 @@
+.examFormFillup {
+    margin: 5px -105px -5px -50px;
+}
+
+.examFormFillupSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px -50;
+    width: 100%;
+}
+
+.examFormFillupSource iframe {
+    border-radius: 5px;
+    margin-top: -180px;
+    margin-bottom: -20px;
+    height: 920px;
+    width: 100%;
+    transform: scale(0.95)
+}

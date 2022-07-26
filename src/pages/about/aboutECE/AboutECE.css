@@ -1,0 +1,28 @@
+.aboutECE {
+    margin: 5px 20px 5px 20px;
+}
+
+.aboutECESource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.aboutECESource iframe {
+    border-radius: 5px;
+    margin-top: -1120px;
+    height: 1350px;
+    width: 100%;
+    transform: scale(0.95)
+}
+
+.eceSRC2 iframe{
+    border-radius: 5px;
+    margin-top: -280px;
+    height: 1150px;
+    width: 100%;
+    transform: scale(0.95)
+}

@@ -1,0 +1,126 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightseagreen;
+}
+
+.settingsDeleteTitle{
+    padding: 8px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.settingsDeleteTitle:hover {
+    color: red;
+    background-color: white;
+    padding: 6px;
+    border: 2px solid red;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsArea{
+    display: flex;
+}
+
+.settingsPP{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 10px 0;
+}
+
+.settingsPP > label{
+    font-size: 20px;
+}
+.settingsPP > img{
+    width: 100px;
+    height: 130px;
+    border-radius: 5px;
+    object-fit: cover;      
+}
+.settingsInfo{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPPIcon{
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    padding-left: 1.5px;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    border: 2.5px solid white;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}
+
+.settingsPPIcon:hover{
+    color: lightseagreen;
+    background-color: white;
+    border: 3px solid lightseagreen;
+}
+
+.settingsInfo > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsInfo > input{
+    color: gray;
+    font-size: 18px;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsInfo > input:focus{
+    outline: none;
+}
+
+.settingsSubmitButton{
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background-color:#019b53;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.settingsSubmitButton:hover{
+    color: #019b53;
+    background-color:white;
+    padding: 8px;
+    border: 2px solid #019b53;
+}

@@ -1,0 +1,20 @@
+.ISTjournal {
+    margin: 5px 20px 5px 20px;
+}
+
+.ISTjournalSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.ISTjournalSource iframe {
+    border-radius: 5px;
+    margin-top: -200px;
+    height: 729px;
+    width: 100%;
+    transform: scale(0.95)
+}

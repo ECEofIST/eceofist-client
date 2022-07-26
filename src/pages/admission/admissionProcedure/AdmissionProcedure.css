@@ -1,0 +1,21 @@
+.admissionProcedure {
+    margin: 5px 20px 5px 20px;
+}
+
+.admissionProcedureSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.admissionProcedureSource iframe {
+    border-radius: 5px;
+    margin-top: -230px;
+    margin-bottom: -750px;
+    height: 1790px;
+    width: 100%;
+    transform: scale(0.95)
+}
